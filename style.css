@@ -1,0 +1,97 @@
+/*seleccionar la etiqueta*/
+img{
+    width: 200px;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    width: 100vw; 
+    height: 25vh; 
+    background-color: aqua;
+    color: blue;
+    /*este es el padre*/
+    position: relative;
+
+}
+
+h1{
+    /*este es un hijo*/
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: inline;
+}
+
+#about {
+    width: 100vw; 
+    height: 25vh;
+    background-color: blueviolet;
+    position: relative;
+
+}
+
+h2{
+    /*este es un hijo*/
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    display: inline;
+}
+
+#texto{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    display: inline;
+    color: blue;
+    width: 50vw;
+    height: auto;
+}
+
+#fun {
+    width: 100vw; 
+    height: 25vh;
+    background-color: chartreuse;
+    position: relative;
+}
+
+#titFun{
+    /*este es un hijo*/
+    color: white;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: inline;
+}
+
+#contacto {
+    width: 100vw; 
+    height: 25vh;
+    background-color: blueviolet;
+    position: relative;
+
+}
+
+/*#intro {
+    width: 100vw; /*vm es el ancho de tu pantalla*/
+   /* height: 25vh; /*el alto de tu pantalla*/
+   /* background-color: aqua;
+    color: blue;
+
+}
+
+
+/*about en medio y arriba
+acerca de mi abajo a la izquierda
+
+fun se queda igual
+y el texto a la derecha abajo
+
+contacto en medio y su texto tambipen pero hasta abajo */
